@@ -1,1 +1,0 @@
-(()=>{"use strict";("undefined"!=typeof window&&void 0!==window.wcpaFlatpickr?window.wcpaFlatpickr:{l10ns:{}}).l10ns})();

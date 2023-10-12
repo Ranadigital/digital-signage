@@ -20,16 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'experkut_edigital_signage' );
+define( 'DB_NAME', 'edigital_signage2' );
 
 /** Database username */
 define( 'DB_USER', 'edigital_signage' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'edigital_signage' );
+define( 'DB_PASSWORD', 'edigitalsignage!Q@W#E$R%T^Y&U*I(O)P' );
 
 /** Database hostname */
-define( 'DB_HOST', '103.195.185.104' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
