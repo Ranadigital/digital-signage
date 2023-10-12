@@ -1,0 +1,19 @@
+2023-08-22T08:51:59+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wcbm_fs_uninstall_cleanup" not found or invalid function name in /home/c8g16oe0sqg4/public_html/edigital-signage/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#1 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-content/plugins/bdthemes-element-pack-lite/freemius/includes/class-freemius.php(19633): do_action()
+#3 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-content/plugins/bdthemes-element-pack-lite/freemius/includes/class-freemius.php(10086): Freemius->do_action()
+#4 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-includes/class-wp-hook.php(308): Freemius::_uninstall_plugin_hook()
+#5 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#6 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-admin/includes/plugin.php(1265): do_action()
+#8 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-admin/includes/plugin.php(958): uninstall_plugin()
+#9 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-admin/includes/ajax-actions.php(4705): delete_plugins()
+#10 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-includes/class-wp-hook.php(308): wp_ajax_delete_plugin()
+#11 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#12 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /home/c8g16oe0sqg4/public_html/edigital-signage/wp-admin/admin-ajax.php(188): do_action()
+#14 {main}
+  thrown in /home/c8g16oe0sqg4/public_html/edigital-signage/wp-includes/class-wp-hook.php on line 308
+

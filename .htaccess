@@ -1,0 +1,77 @@
+# BEGIN HMWP_RULES
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^([_0-9a-zA-Z-]+/)?newlogin$ /edigital-signage/wp-login.php [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?newlogin/(.*) /edigital-signage/wp-login.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lostpass$ /edigital-signage/wp-login.php?action=lostpassword [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?register$ /edigital-signage/wp-login.php?action=register [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/d0f4711431/(.*) /edigital-signage/wp-content/plugins/hide-my-wp/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/a0d6002f7e/(.*) /edigital-signage/wp-content/plugins/cmb2/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/8516d2654f/(.*) /edigital-signage/wp-content/plugins/contact-form-7/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/f65f29574d/(.*) /edigital-signage/wp-content/plugins/elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/19264a84a8/(.*) /edigital-signage/wp-content/plugins/header-footer-elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/697351d7e6/(.*) /edigital-signage/wp-content/plugins/jetpack/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/8c6b2640d1/(.*) /edigital-signage/wp-content/plugins/mailchimp-for-wp/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/3a894802b5/(.*) /edigital-signage/wp-content/plugins/make-column-clickable-elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/0021696ee0/(.*) /edigital-signage/wp-content/plugins/optinmonster/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/45338628ba/(.*) /edigital-signage/wp-content/plugins/page-or-post-clone/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/4b36101dcc/(.*) /edigital-signage/wp-content/plugins/revslider/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/fc7e3ccd56/(.*) /edigital-signage/wp-content/plugins/svg-support/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/98def5ef00/(.*) /edigital-signage/wp-content/plugins/woo-sidebar-category-accordion/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/173a48aaae/(.*) /edigital-signage/wp-content/plugins/woo-smart-compare/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/f6c98b18ca/(.*) /edigital-signage/wp-content/plugins/woo-smart-quick-view/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/963604c892/(.*) /edigital-signage/wp-content/plugins/woo-smart-wishlist/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/2c137f0be3/(.*) /edigital-signage/wp-content/plugins/woo-variation-swatches/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/39d10ee62c/(.*) /edigital-signage/wp-content/plugins/woocommerce/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/067a15d05a/(.*) /edigital-signage/wp-content/plugins/wpforms-lite/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/e6a3f35e24/(.*) /edigital-signage/wp-content/plugins/yikes-inc-easy-custom-woocommerce-product-tabs/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/(.*) /edigital-signage/wp-content/plugins/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/86c6851308/design.css$ /edigital-signage/wp-content/themes/liquory-child/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/86c6851308/(.*) /edigital-signage/wp-content/themes/liquory-child/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/9a6600f992/design.css$ /edigital-signage/wp-content/themes/liquory/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/9a6600f992/(.*) /edigital-signage/wp-content/themes/liquory/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/70da61391b/design.css$ /edigital-signage/wp-content/themes/twentytwentytwo/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/70da61391b/(.*) /edigital-signage/wp-content/themes/twentytwentytwo/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/(.*) /edigital-signage/wp-content/themes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?storage/(.*) /edigital-signage/wp-content/uploads/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/(.*) /edigital-signage/wp-content/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lib/(.*) /edigital-signage/wp-includes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?comments/(.*) /edigital-signage/wp-comments-post.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?writer/(.*) /edigital-signage/author/$2 [QSA,L]
+</IfModule>
+
+
+# END HMWP_RULES
+# BEGIN HMWP_VULNERABILITY
+<IfModule mod_headers.c>
+Header always unset x-powered-by
+Header always unset server
+ServerSignature Off
+</IfModule>
+
+<IfModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=15768000;includeSubdomains"
+Header set Content-Security-Policy "object-src 'none'"
+Header set X-XSS-Protection "1; mode=block"
+Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+
+
+# END HMWP_VULNERABILITY
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /edigital-signage/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /edigital-signage/index.php [L]
+</IfModule>
+
+# END WordPress

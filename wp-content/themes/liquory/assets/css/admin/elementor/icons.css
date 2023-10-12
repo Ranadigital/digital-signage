@@ -1,0 +1,938 @@
+
+@font-face {
+  font-family: "liquory-icon";
+  src: url("../../../fonts/icons/liquory-icon-1.0.0.eot");
+  src: url("../../../fonts/icons/liquory-icon-1.0.0.eot?#iefix") format("eot"), url("../../../fonts/icons/liquory-icon-1.0.0.woff2") format("woff2"), url("../../../fonts/icons/liquory-icon-1.0.0.woff") format("woff"), url("../../../fonts/icons/liquory-icon-1.0.0.ttf") format("truetype"), url("../../../fonts/icons/liquory-icon-1.0.0.svg#liquory-icon-1.0.0") format("svg");
+}
+[class*=liquory-icon-] {
+  font-family: "liquory-icon";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.liquory-icon-account:before {
+  content: "";
+}
+
+.liquory-icon-alarm:before {
+  content: "";
+}
+
+.liquory-icon-amazing-value:before {
+  content: "";
+}
+
+.liquory-icon-angle-down:before {
+  content: "";
+}
+
+.liquory-icon-angle-left:before {
+  content: "";
+}
+
+.liquory-icon-angle-right:before {
+  content: "";
+}
+
+.liquory-icon-angle-up:before {
+  content: "";
+}
+
+.liquory-icon-arrow-right1:before {
+  content: "";
+}
+
+.liquory-icon-arrow_s:before {
+  content: "";
+}
+
+.liquory-icon-beer:before {
+  content: "";
+}
+
+.liquory-icon-beer2:before {
+  content: "";
+}
+
+.liquory-icon-best-seller:before {
+  content: "";
+}
+
+.liquory-icon-breadcrumb:before {
+  content: "";
+}
+
+.liquory-icon-calendar-alt:before {
+  content: "";
+}
+
+.liquory-icon-cart:before {
+  content: "";
+}
+
+.liquory-icon-check-o:before {
+  content: "";
+}
+
+.liquory-icon-check-square-solid:before {
+  content: "";
+}
+
+.liquory-icon-click:before {
+  content: "";
+}
+
+.liquory-icon-clock:before {
+  content: "";
+}
+
+.liquory-icon-close-circle-line:before {
+  content: "";
+}
+
+.liquory-icon-club:before {
+  content: "";
+}
+
+.liquory-icon-cocktail:before {
+  content: "";
+}
+
+.liquory-icon-cocktail2:before {
+  content: "";
+}
+
+.liquory-icon-cogac:before {
+  content: "";
+}
+
+.liquory-icon-cogac2:before {
+  content: "";
+}
+
+.liquory-icon-coolicon:before {
+  content: "";
+}
+
+.liquory-icon-day-delivery:before {
+  content: "";
+}
+
+.liquory-icon-delivery:before {
+  content: "";
+}
+
+.liquory-icon-directly:before {
+  content: "";
+}
+
+.liquory-icon-expert:before {
+  content: "";
+}
+
+.liquory-icon-facebook-o:before {
+  content: "";
+}
+
+.liquory-icon-fast-delivery:before {
+  content: "";
+}
+
+.liquory-icon-featured:before {
+  content: "";
+}
+
+.liquory-icon-filter-ul:before {
+  content: "";
+}
+
+.liquory-icon-filters:before {
+  content: "";
+}
+
+.liquory-icon-free-return:before {
+  content: "";
+}
+
+.liquory-icon-gift2:before {
+  content: "";
+}
+
+.liquory-icon-grape:before {
+  content: "";
+}
+
+.liquory-icon-great-value:before {
+  content: "";
+}
+
+.liquory-icon-grid-o:before {
+  content: "";
+}
+
+.liquory-icon-help-center:before {
+  content: "";
+}
+
+.liquory-icon-increase:before {
+  content: "";
+}
+
+.liquory-icon-instagram-o:before {
+  content: "";
+}
+
+.liquory-icon-layout-grid-line:before {
+  content: "";
+}
+
+.liquory-icon-left-arrow:before {
+  content: "";
+}
+
+.liquory-icon-linkedin-in:before {
+  content: "";
+}
+
+.liquory-icon-list-o:before {
+  content: "";
+}
+
+.liquory-icon-long-arrow-down:before {
+  content: "";
+}
+
+.liquory-icon-long-arrow-right:before {
+  content: "";
+}
+
+.liquory-icon-long-arrow-up:before {
+  content: "";
+}
+
+.liquory-icon-mail-send-line:before {
+  content: "";
+}
+
+.liquory-icon-map-marker-alt:before {
+  content: "";
+}
+
+.liquory-icon-map-pin-line:before {
+  content: "";
+}
+
+.liquory-icon-marketplace:before {
+  content: "";
+}
+
+.liquory-icon-minus-o:before {
+  content: "";
+}
+
+.liquory-icon-mobile-shopping:before {
+  content: "";
+}
+
+.liquory-icon-mobile:before {
+  content: "";
+}
+
+.liquory-icon-money-check:before {
+  content: "";
+}
+
+.liquory-icon-movies:before {
+  content: "";
+}
+
+.liquory-icon-new:before {
+  content: "";
+}
+
+.liquory-icon-play-fill:before {
+  content: "";
+}
+
+.liquory-icon-plus-o:before {
+  content: "";
+}
+
+.liquory-icon-plus2:before {
+  content: "";
+}
+
+.liquory-icon-price:before {
+  content: "";
+}
+
+.liquory-icon-quote-left:before {
+  content: "";
+}
+
+.liquory-icon-reply-line:before {
+  content: "";
+}
+
+.liquory-icon-right-arrow-cicrle:before {
+  content: "";
+}
+
+.liquory-icon-right-arrow:before {
+  content: "";
+}
+
+.liquory-icon-safe-packaging:before {
+  content: "";
+}
+
+.liquory-icon-sale:before {
+  content: "";
+}
+
+.liquory-icon-search2:before {
+  content: "";
+}
+
+.liquory-icon-send-back:before {
+  content: "";
+}
+
+.liquory-icon-setting:before {
+  content: "";
+}
+
+.liquory-icon-share-all:before {
+  content: "";
+}
+
+.liquory-icon-shopping-new:before {
+  content: "";
+}
+
+.liquory-icon-sliders-v:before {
+  content: "";
+}
+
+.liquory-icon-store2:before {
+  content: "";
+}
+
+.liquory-icon-support:before {
+  content: "";
+}
+
+.liquory-icon-team:before {
+  content: "";
+}
+
+.liquory-icon-tequila:before {
+  content: "";
+}
+
+.liquory-icon-th-large-o:before {
+  content: "";
+}
+
+.liquory-icon-ticket-simple:before {
+  content: "";
+}
+
+.liquory-icon-trusted-marketplace:before {
+  content: "";
+}
+
+.liquory-icon-twitter-o:before {
+  content: "";
+}
+
+.liquory-icon-user-o:before {
+  content: "";
+}
+
+.liquory-icon-valuable:before {
+  content: "";
+}
+
+.liquory-icon-wallet-security:before {
+  content: "";
+}
+
+.liquory-icon-whiskey:before {
+  content: "";
+}
+
+.liquory-icon-whiskey2:before {
+  content: "";
+}
+
+.liquory-icon-wine-tasting:before {
+  content: "";
+}
+
+.liquory-icon-wine:before {
+  content: "";
+}
+
+.liquory-icon-wine2:before {
+  content: "";
+}
+
+.liquory-icon-360:before {
+  content: "";
+}
+
+.liquory-icon-arrow-down:before {
+  content: "";
+}
+
+.liquory-icon-arrow-left:before {
+  content: "";
+}
+
+.liquory-icon-arrow-right:before {
+  content: "";
+}
+
+.liquory-icon-arrow-up:before {
+  content: "";
+}
+
+.liquory-icon-bars:before {
+  content: "";
+}
+
+.liquory-icon-caret-down:before {
+  content: "";
+}
+
+.liquory-icon-caret-left:before {
+  content: "";
+}
+
+.liquory-icon-caret-right:before {
+  content: "";
+}
+
+.liquory-icon-caret-up:before {
+  content: "";
+}
+
+.liquory-icon-cart-empty:before {
+  content: "";
+}
+
+.liquory-icon-check-square:before {
+  content: "";
+}
+
+.liquory-icon-chevron-down:before {
+  content: "";
+}
+
+.liquory-icon-chevron-left:before {
+  content: "";
+}
+
+.liquory-icon-chevron-right:before {
+  content: "";
+}
+
+.liquory-icon-chevron-up:before {
+  content: "";
+}
+
+.liquory-icon-circle:before {
+  content: "";
+}
+
+.liquory-icon-cloud-download-alt:before {
+  content: "";
+}
+
+.liquory-icon-comment:before {
+  content: "";
+}
+
+.liquory-icon-comments:before {
+  content: "";
+}
+
+.liquory-icon-compare:before {
+  content: "";
+}
+
+.liquory-icon-contact:before {
+  content: "";
+}
+
+.liquory-icon-credit-card:before {
+  content: "";
+}
+
+.liquory-icon-dot-circle:before {
+  content: "";
+}
+
+.liquory-icon-edit:before {
+  content: "";
+}
+
+.liquory-icon-envelope:before {
+  content: "";
+}
+
+.liquory-icon-expand-alt:before {
+  content: "";
+}
+
+.liquory-icon-external-link-alt:before {
+  content: "";
+}
+
+.liquory-icon-file-alt:before {
+  content: "";
+}
+
+.liquory-icon-file-archive:before {
+  content: "";
+}
+
+.liquory-icon-filter:before {
+  content: "";
+}
+
+.liquory-icon-folder-open:before {
+  content: "";
+}
+
+.liquory-icon-folder:before {
+  content: "";
+}
+
+.liquory-icon-frown:before {
+  content: "";
+}
+
+.liquory-icon-gift:before {
+  content: "";
+}
+
+.liquory-icon-grid:before {
+  content: "";
+}
+
+.liquory-icon-grip-horizontal:before {
+  content: "";
+}
+
+.liquory-icon-heart-fill:before {
+  content: "";
+}
+
+.liquory-icon-heart:before {
+  content: "";
+}
+
+.liquory-icon-history:before {
+  content: "";
+}
+
+.liquory-icon-home:before {
+  content: "";
+}
+
+.liquory-icon-info-circle:before {
+  content: "";
+}
+
+.liquory-icon-instagram:before {
+  content: "";
+}
+
+.liquory-icon-level-up-alt:before {
+  content: "";
+}
+
+.liquory-icon-list:before {
+  content: "";
+}
+
+.liquory-icon-map-marker-check:before {
+  content: "";
+}
+
+.liquory-icon-meh:before {
+  content: "";
+}
+
+.liquory-icon-minus-circle:before {
+  content: "";
+}
+
+.liquory-icon-minus:before {
+  content: "";
+}
+
+.liquory-icon-mobile-android-alt:before {
+  content: "";
+}
+
+.liquory-icon-money-bill:before {
+  content: "";
+}
+
+.liquory-icon-pencil-alt:before {
+  content: "";
+}
+
+.liquory-icon-plus-circle:before {
+  content: "";
+}
+
+.liquory-icon-plus:before {
+  content: "";
+}
+
+.liquory-icon-quickview:before {
+  content: "";
+}
+
+.liquory-icon-random:before {
+  content: "";
+}
+
+.liquory-icon-rating-stroke:before {
+  content: "";
+}
+
+.liquory-icon-rating:before {
+  content: "";
+}
+
+.liquory-icon-reply-all:before {
+  content: "";
+}
+
+.liquory-icon-reply:before {
+  content: "";
+}
+
+.liquory-icon-search-plus:before {
+  content: "";
+}
+
+.liquory-icon-search:before {
+  content: "";
+}
+
+.liquory-icon-shield-check:before {
+  content: "";
+}
+
+.liquory-icon-shopping-basket:before {
+  content: "";
+}
+
+.liquory-icon-shopping-cart:before {
+  content: "";
+}
+
+.liquory-icon-sign-out-alt:before {
+  content: "";
+}
+
+.liquory-icon-smile:before {
+  content: "";
+}
+
+.liquory-icon-spinner:before {
+  content: "";
+}
+
+.liquory-icon-square:before {
+  content: "";
+}
+
+.liquory-icon-star:before {
+  content: "";
+}
+
+.liquory-icon-store:before {
+  content: "";
+}
+
+.liquory-icon-sync:before {
+  content: "";
+}
+
+.liquory-icon-tachometer-alt:before {
+  content: "";
+}
+
+.liquory-icon-th-large:before {
+  content: "";
+}
+
+.liquory-icon-th-list:before {
+  content: "";
+}
+
+.liquory-icon-thumbtack:before {
+  content: "";
+}
+
+.liquory-icon-ticket:before {
+  content: "";
+}
+
+.liquory-icon-times-circle:before {
+  content: "";
+}
+
+.liquory-icon-times:before {
+  content: "";
+}
+
+.liquory-icon-trophy-alt:before {
+  content: "";
+}
+
+.liquory-icon-user-headset:before {
+  content: "";
+}
+
+.liquory-icon-user-shield:before {
+  content: "";
+}
+
+.liquory-icon-user:before {
+  content: "";
+}
+
+.liquory-icon-video:before {
+  content: "";
+}
+
+.liquory-icon-wishlist-empty:before {
+  content: "";
+}
+
+.liquory-icon-wishlist:before {
+  content: "";
+}
+
+.liquory-icon-adobe:before {
+  content: "";
+}
+
+.liquory-icon-amazon:before {
+  content: "";
+}
+
+.liquory-icon-android:before {
+  content: "";
+}
+
+.liquory-icon-angular:before {
+  content: "";
+}
+
+.liquory-icon-apper:before {
+  content: "";
+}
+
+.liquory-icon-apple:before {
+  content: "";
+}
+
+.liquory-icon-atlassian:before {
+  content: "";
+}
+
+.liquory-icon-behance:before {
+  content: "";
+}
+
+.liquory-icon-bitbucket:before {
+  content: "";
+}
+
+.liquory-icon-bitcoin:before {
+  content: "";
+}
+
+.liquory-icon-bity:before {
+  content: "";
+}
+
+.liquory-icon-bluetooth:before {
+  content: "";
+}
+
+.liquory-icon-btc:before {
+  content: "";
+}
+
+.liquory-icon-centos:before {
+  content: "";
+}
+
+.liquory-icon-chrome:before {
+  content: "";
+}
+
+.liquory-icon-codepen:before {
+  content: "";
+}
+
+.liquory-icon-cpanel:before {
+  content: "";
+}
+
+.liquory-icon-discord:before {
+  content: "";
+}
+
+.liquory-icon-dochub:before {
+  content: "";
+}
+
+.liquory-icon-docker:before {
+  content: "";
+}
+
+.liquory-icon-dribbble:before {
+  content: "";
+}
+
+.liquory-icon-dropbox:before {
+  content: "";
+}
+
+.liquory-icon-drupal:before {
+  content: "";
+}
+
+.liquory-icon-ebay:before {
+  content: "";
+}
+
+.liquory-icon-facebook-f:before {
+  content: "";
+}
+
+.liquory-icon-facebook:before {
+  content: "";
+}
+
+.liquory-icon-figma:before {
+  content: "";
+}
+
+.liquory-icon-firefox:before {
+  content: "";
+}
+
+.liquory-icon-google-plus:before {
+  content: "";
+}
+
+.liquory-icon-google:before {
+  content: "";
+}
+
+.liquory-icon-grunt:before {
+  content: "";
+}
+
+.liquory-icon-gulp:before {
+  content: "";
+}
+
+.liquory-icon-html5:before {
+  content: "";
+}
+
+.liquory-icon-joomla:before {
+  content: "";
+}
+
+.liquory-icon-link-brand:before {
+  content: "";
+}
+
+.liquory-icon-linkedin:before {
+  content: "";
+}
+
+.liquory-icon-mailchimp:before {
+  content: "";
+}
+
+.liquory-icon-opencart:before {
+  content: "";
+}
+
+.liquory-icon-paypal:before {
+  content: "";
+}
+
+.liquory-icon-pinterest-p:before {
+  content: "";
+}
+
+.liquory-icon-reddit:before {
+  content: "";
+}
+
+.liquory-icon-skype:before {
+  content: "";
+}
+
+.liquory-icon-slack:before {
+  content: "";
+}
+
+.liquory-icon-snapchat:before {
+  content: "";
+}
+
+.liquory-icon-spotify:before {
+  content: "";
+}
+
+.liquory-icon-trello:before {
+  content: "";
+}
+
+.liquory-icon-twitter:before {
+  content: "";
+}
+
+.liquory-icon-vimeo:before {
+  content: "";
+}
+
+.liquory-icon-whatsapp:before {
+  content: "";
+}
+
+.liquory-icon-wordpress:before {
+  content: "";
+}
+
+.liquory-icon-yoast:before {
+  content: "";
+}
+
+.liquory-icon-youtube:before {
+  content: "";
+}
+
